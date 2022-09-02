@@ -1,0 +1,50 @@
+/* GENERAL */
+header div a img{height: 190px; padding: 10px;}
+.imgIndex{height: 600px; width: 100%; padding: 10px;}
+.imgSec{height: 400px; width: 80%; padding-top: 30px;}
+footer{padding-top: 50px;}
+h1{padding: 20px; color: white;}
+h4, .mainProd{color: white;}
+main{padding-bottom: 30px;}
+.imgFoo{height: 30px;}
+.bgColor{ background-color:lightblue}
+.carousel{padding: 40px;}
+
+/* ANIMACIONES, TRANSICIONES Y TRANSFORMACIONES */
+/* general */
+.animNav{color: black;}
+.animNav:hover{color: blue;}
+
+div ul li{color: black;}
+div ul li:hover{color: white;}
+
+.imgSec{height: 400px;}
+.imgSec:hover{height: 395px;}
+
+/* index */
+h4{color: white;}
+h4:hover{color: black;}
+
+
+div h1{color: white;}
+div h1:hover{color: black;}
+
+
+.imgIndex{height: 600px;}
+.imgIndex:hover{height: 595px;}
+
+
+/* producto */
+
+h3{color: white;}
+h3:hover{color: black;}
+
+h5{color: black;}
+h5:hover{color: white;}
+
+
+/* MEDIAQUERIES */
+@media only screen and (max-width:768px){
+    .imgIndex{display: flex;flex-direction: column; height: 390px;}
+    .imgSec{margin: 10px;}
+}
